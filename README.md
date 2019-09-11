@@ -67,9 +67,14 @@ The program has one exception for checking the coherency of the XML input file r
 
 ## To run the program
 
-For example, for running the program with the test_1 XML input file, simply run:
+By default, the Makefile runs the program with the test_1.xml file:
 ```
-make TEST=test_1
+make 
+```
+
+To change the input file (for example, for test_2.xml), run:
+```
+make TEST=test_2
 ```
 
 ## To clean repo
