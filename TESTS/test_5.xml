@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE simulation SYSTEM "simulation.dtd">
+<simulation finalinst="300.0" antcolsize="200" plevel="0.5">
+	<graph nbnodes="8" nestnode="15">        <node nodeidx="10">            <weight targetnode="15">500</weight>            <weight targetnode="30">100</weight>        </node>        <node nodeidx="15">            <weight targetnode="20">1</weight>        </node>
+        <node nodeidx="20">
+            <weight targetnode="25">100</weight>
+        </node>		        <node nodeidx="25">            <weight targetnode="30">10</weight>
+			<weight targetnode="35">500</weight>        </node>	
+        <node nodeidx="30">
+            <weight targetnode="40">500</weight>
+        </node>	
+        <node nodeidx="35">
+            <weight targetnode="45">100</weight>
+        </node>	
+        <node nodeidx="40">
+            <weight targetnode="45">100</weight>
+        </node>	    </graph>    <events>
+        <move alpha="1.0" beta="1.0" delta="0.2"/>        <evaporation eta="2.0" rho="10.0"/>    </events>
+</simulation>
