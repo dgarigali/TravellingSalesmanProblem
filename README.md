@@ -66,3 +66,13 @@ The project follows some basic concepts of OOP:
 The program has one exception for checking the coherency of the XML input file regarding: simulation parameters (must be positive), nest node (must exists in the graph), number of nodes (must correspond to the number of node IDs), duplicated edges and edges connecting the same nodes.
 
 ## To run the program
+
+For example, for running the program with the test_1 XML input file, simply run:
+```
+make TEST=test_1
+```
+
+## To clean repo
+```
+make clean
+```
